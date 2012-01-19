@@ -1,0 +1,18 @@
+Zestaw_1
+1. Wczytac rekordy o polach (x: liczba, y: napis) do tablic (wektorów) A i B o n elementach (n-stała). W
+kadej tablicy najdłuszy napis sposród pól y elementów tej tablicy naley wpisac do pól y tych
+rekordów, które maja dodatnie pole x. Wydrukowac tablice przed i po tej operacji. Naley   napisac   i
+wykorzystac odpowiednie  funkcje.
+
+2. Dla listy zdefiniowanej typami:
+struct Tcos { int liczba; char znak; Tcos *next};
+napisac funkcje, która do listy zaczynajacej sie pod jakims adresem dopisuje najpierw element zawierajacy
+sume pól liczbowych tych elementów listy, w których pole znak  jest cyfra, a zaraz za nim dopisuje element
+zawierajacy sume pól liczbowych pozostałych elementów. Pola znakowe powinny byc równe odpowiednio ‘p’
+(w elemencie przedostatnim ) i ‘o’ (w elemencie ostatnim)
+Uwaga:  Naley napisac funkcje, a nie cały program (słowo "jakis" oznacza parametr  funkcji).
+
+3.Do pliku "dane.txt" wczytywac z klawiatury wiersze, dopóki zaczynaja sie litera. Nastepnie z tego pliku
+przepisac do pliku "a.txt" wiersze nie zawierajace ani jednej litery 'a' i o długosci co najmniej 5 znaków, a do
+pliku "b.txt" wiersze nie zawierajace ani jednej litery 'b' i o długosci co najmniej 7 znaków. Wyswietlic
+zawartosc wszystkich plików. Naley napisac i wykorzystac odpowiednie  funkcje.
